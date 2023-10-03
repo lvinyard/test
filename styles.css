@@ -1,0 +1,81 @@
+#myInput {
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  margin: auto;
+  width: 80%; /* Full-width */
+  border: 3px solid green;
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  margin-top: 100px;
+}
+
+#site {
+  background-color: #F5F5F5;
+}
+
+.center-block {
+  margin: auto;
+  display: block;
+  padding: 30px;
+}
+
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  display: block;
+  padding: 1px;
+  margin: auto;
+  z-index: 1;
+  width: 75%;
+  position: relative;
+  z-index: 1;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+  position: relative;
+  z-index: 1;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+  position: relative;
+  z-index: 1;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1rem;
+  width: 30%;
+  background-color: #8DB48E;
+  }
+
+
+#left {
+    width: 40%;
+    float: left;
+}
+#right {
+    width: 60%;
+    float: left;
+    margin-top: 85px;
+}
+
+#cardleft {
+  width: 50%;
+  float: left;
+}
+#cardright {
+  width: 50%;
+  float: left;
+}
